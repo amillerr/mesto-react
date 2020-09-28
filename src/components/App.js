@@ -1,14 +1,14 @@
-import React                from "react";
-import Main                 from "./Main";
-import Header               from "./Header";
-import Footer               from "./Footer";
-import ImagePopup           from "./ImagePopup";
-import AddPlacePopup        from "./AddPlacePopup";
-import {api}                from "../utils/api";
+import React from "react";
+import Main from "./Main";
+import Header from "./Header";
+import Footer from "./Footer";
+import ImagePopup from "./ImagePopup";
+import AddPlacePopup from "./AddPlacePopup";
+import {api} from "../utils/api";
 import {CurrentUserContext} from '../context/CurrentUserContext'
-import EditAvatarPopup      from "./EditAvatarPopup";
+import EditAvatarPopup from "./EditAvatarPopup";
 import EditProfilePopup from './EditProfilePopup'
-import PopupWithForm    from "./PopupWithForm";
+import PopupWithForm from "./PopupWithForm";
 
 function App() {
   const [isEditProfilePopupOpen, setIsEditProfilePopupOpen] = React.useState(false);
@@ -91,7 +91,7 @@ function App() {
   function handleAddPlaceSubmit(item) {
     api.createCard(item)
       .then((res) => {
-        setCards([...cards, res])
+        setCards([res, ...cards])
         closeAllPopups()
       })
       .catch(error => console.log(error))

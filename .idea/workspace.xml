@@ -19,14 +19,22 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbb6cb2f-9e0d-4b7a-b91b-acb8ef6ee3e2" name="Default Changelist" comment="" />
+    <list default="true" id="6a7fb926-306c-4ed9-8b42-0d3b00838002" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PopupWithForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PopupWithForm.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,26 +49,18 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectId" id="1i1DoMehAhZiLXiBlbSEIGzrlll" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1i9R7V2WpkVhZZrbNH0VLIAJTWd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -68,12 +68,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cbb6cb2f-9e0d-4b7a-b91b-acb8ef6ee3e2" name="Default Changelist" comment="" />
-      <created>1601066381248</created>
+      <changelist id="6a7fb926-306c-4ed9-8b42-0d3b00838002" name="Default Changelist" comment="" />
+      <created>1601317657638</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1601066381248</updated>
-      <workItem from="1601066384113" duration="17389000" />
+      <updated>1601317657638</updated>
+      <workItem from="1601317661072" duration="424000" />
+      <workItem from="1601319061751" duration="2199000" />
     </task>
     <servers />
   </component>
@@ -85,13 +86,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -99,21 +94,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="470" y="140" key="#CSS" timestamp="1601233521361">
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1601322480578">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state x="470" y="140" key="#CSS/0.23.1440.829/-248.-1057.1920.1057@0.23.1440.829" timestamp="1601233521361" />
-    <state x="419" y="253" width="625" height="379" key="#ESLint" timestamp="1601310237576">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="419" y="253" width="625" height="379" key="#ESLint/0.23.1440.829/-248.-1057.1920.1057@0.23.1440.829" timestamp="1601310237576" />
-    <state x="354" y="123" key="#Inspections" timestamp="1601230196828">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="354" y="123" key="#Inspections/0.23.1440.829/-248.-1057.1920.1057@0.23.1440.829" timestamp="1601230196828" />
-    <state x="642" y="178" key="VcsDiffUtil.ChangesDialog" timestamp="1601316061794">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="642" y="178" key="VcsDiffUtil.ChangesDialog/0.23.1440.829/-248.-1057.1920.1057@0.23.1440.829" timestamp="1601316061794" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.829@0.23.1440.829" timestamp="1601322480578" />
   </component>
 </project>

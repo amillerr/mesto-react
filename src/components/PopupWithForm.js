@@ -16,7 +16,7 @@ function PopupWithForm({name, title, isOpen, onClose, children, onSubmit, submit
         <form
           className="popup__form popup__form_edit"
           name={name}
-          method="GET"
+          method="POST"
           onSubmit={onSubmit}
           action="#"
           noValidate
