@@ -1,8 +1,8 @@
 import React from "react";
 
 function ImagePopup({ card, isClose }) {
-  return !  card ? null : (
-    <section className="popup popup_image popup_opened">
+  return (
+    <section className={`popup popup_image ${card && 'popup_opened'}`}>
       <figure className="popup__image_container">
         <button
           onClick={isClose}
@@ -10,7 +10,7 @@ function ImagePopup({ card, isClose }) {
           type="button"
           aria-label="Закрыть"
         />
-        <img src={card.link} alt={""} className="popup__preview"/>
+        <img src={`${card.link}`} alt={''} className="popup__preview"/>
         <figcaption className="popup__image-title">{card.name}</figcaption>
       </figure>
     </section>

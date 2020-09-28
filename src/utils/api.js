@@ -43,32 +43,25 @@ class Api {
       method: "PATCH",
       headers: this._headers,
       body: JSON.stringify({
-        avatar: avatar.avatar,
+        avatar: avatar.avatar
       }),
     }).then(this._getStatus);
   }
 
   createCard(item) {
-    return fetch(`${this._baseUrl}/cards`, {
-      method: "POST",
+    return fetch(`${this._baseUrl}/cards`,  {
+      method: 'POST',
       headers: this._headers,
       body: JSON.stringify({
-        name: item.title,
-        link: item.url,
-      }),
+        name: item.name,
+        link: item.link
+      })
     }).then(this._getStatus);
   }
 
-  likeCard(id) {
+  likeCard(id, like) {
     return fetch(`${this._baseUrl}/cards/likes/${id}`, {
-      method: "PUT",
-      headers: this._headers,
-    }).then(this._getStatus);
-  }
-
-  dislikeCard(id) {
-    return fetch(`${this._baseUrl}/cards/likes/${id}`, {
-      method: "DELETE",
+      method: like ? "PUT" : "DELETE",
       headers: this._headers,
     }).then(this._getStatus);
   }
