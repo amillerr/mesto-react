@@ -12,8 +12,8 @@
     "service-worker.js": "/service-worker.js",
     "static/css/main.e43235a6.chunk.css.map": "/static/css/main.e43235a6.chunk.css.map",
     "static/js/2.6e4763c2.chunk.js.LICENSE.txt": "/static/js/2.6e4763c2.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/trash.d8078343.svg",
-    "static/media/header__logo.svg": "/static/media/header__logo.c6f11019.svg"
+    "static/media/index.css": "./static/media/trash.d8078343.svg",
+    "static/media/header__logo.svg": "./static/media/header__logo.c6f11019.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e8402bce.js",
